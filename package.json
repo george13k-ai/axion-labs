@@ -1,0 +1,13 @@
+{
+  "name": "studio-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "B2B site of a custom software studio: static pages and a lead form endpoint.",
+  "engines": { "node": ">=18.17" },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "build:pages": "node src/build.mjs --pages",
+    "start": "node server/server.js",
+    "dev": "node src/build.mjs && node server/server.js"
+  }
+}

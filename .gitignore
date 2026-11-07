@@ -1,0 +1,7 @@
+node_modules/
+.env
+/dist/
+/_backup-v2/
+/img/
+/index.html
+*.log
